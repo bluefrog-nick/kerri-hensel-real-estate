@@ -1,4 +1,4 @@
-import ContentBlock from './ContentBlockTwo';
+import ContentBlockTwo from './ContentBlockTwo';
 import ContentBlock from './ContentBlock';
 import CtaBlock from './CtaBlock';
 import CtaButtons from './CtaButtons';
