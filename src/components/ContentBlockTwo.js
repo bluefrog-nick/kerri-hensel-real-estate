@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import {safePrefix, markdownify, Link} from '../utils';
 
-export default class ContentBlock extends React.Component {
+export default class ContentBlockTwo extends React.Component {
     render() {
         return (
             <section id={_.get(this.props, 'section.section_id')} className="block text-block outer">
