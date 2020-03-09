@@ -79,10 +79,17 @@
 }
 
 /* Content block */
-#about .block-preview{
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
+#about{
+  .block-preview{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+
+    img{
+      max-width: 80%;
+      margin: 0 10%;
+    }
+  }
 }
 
 .text-block {
