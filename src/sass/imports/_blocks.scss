@@ -89,7 +89,6 @@
       display: flex;
       margin: 0 -1.5vw;
     }
-
     .block-preview {
       box-sizing: border-box;
       -webkit-flex: 4;
@@ -101,6 +100,11 @@
 
       .thumbnail {
         border-radius: 3px;
+      }
+      #about-kerri .block-preview{
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
       }
     }
 
