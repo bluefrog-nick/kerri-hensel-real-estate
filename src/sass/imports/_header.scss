@@ -3,11 +3,6 @@
  * ----------------------------------------------------------------------------
  */
 
-.header-top a{
-    color: white;
-    text-decoration: unset;
-    border-bottom: none;
-}
 .header-top{
     text-align: right;
     background: _palette(secondary);
@@ -15,6 +10,11 @@
     font-size: 13px;
     padding-left: 3vw;
     padding-right: 3vw;
+}
+.header-top a{
+  color: white;
+  text-decoration: unset;
+  border-bottom: none;
 }
 .site-header {
   background: #fff;
