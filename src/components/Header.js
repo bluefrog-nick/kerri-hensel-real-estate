@@ -8,6 +8,7 @@ export default class Header extends React.Component {
     render() {
         let menu = _.get(this.props, 'pageContext.menus.main');
         return (
+          <div class="header-top"><div class="inner">4535 W Dublin Granville Rd, Dublin, OH  43017 <a href="tel:614-937-3490">614-937-3490</a></div></div>
             <header id="masthead" className="site-header outer">
               <div className="inner">
                 <div className="site-header-inside">
