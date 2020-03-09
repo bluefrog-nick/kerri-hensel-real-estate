@@ -30,10 +30,6 @@ metadata:
       images:
         small: images/demo-256x192.png
         large: images/demo-1024x768.png
-    gray:
-      images:
-        small: images/demo-256x192.png
-        large: images/demo-1024x768.png
 stackbit_banner:
   show_banner: true
   name: Libris
@@ -58,7 +54,6 @@ models:
           - green
           - navy
           - violet
-          - gray
         default: blue
       - type: object
         name: palettes
@@ -77,9 +72,6 @@ models:
           - type: palette
             name: violet
             label: Violet
-          - type: palette
-            name: gray
-            label: gray
   author:
     type: data
     file: author.json
