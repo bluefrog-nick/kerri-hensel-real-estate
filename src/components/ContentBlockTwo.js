@@ -7,17 +7,17 @@ export default class ContentBlockTwo extends React.Component {
     render() {
         return (
             <section id={_.get(this.props, 'section.section_id')} className="block text-block outer">
+              <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
               <div className="inner">
                 <div className="block-inside">
-                  <h2 className="block-title">{_.get(this.props, 'section.title')}</h2>
                   <div className="block-content">
                     <div className="block-text">
-                      {markdownify(_.get(this.props, 'section.contentTwo'))}
+                      {markdownify(_.get(this.props, 'section.content'))}
                     </div>
                   </div>
                   <div className="block-content">
                     <div className="block-text">
-                      {markdownify(_.get(this.props, 'section.content'))}
+                      {markdownify(_.get(this.props, 'section.content_two'))}
                     </div>
                   </div>
                 </div>
