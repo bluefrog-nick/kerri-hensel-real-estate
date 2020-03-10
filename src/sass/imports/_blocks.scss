@@ -91,7 +91,17 @@
     }
   }
 }
+.two-column-content{
 
+  ul{
+    list-style: none;
+    padding-inline-start: 0px;
+
+    li{
+      padding-bottom: 10px;
+    }
+  }
+}
 .text-block {
   text-align: center;
 
