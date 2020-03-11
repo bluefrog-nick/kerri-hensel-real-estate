@@ -41,7 +41,7 @@ export default class Showcase extends React.Component {
                 </div>
               </div>
               <div className="content-block">
-                <div className="block-item-contents">{htmlToReact(_.get(item, 'content'))}</div>
+                <div className="block-item-contents">{_.get(this.props, 'data.showcaseModel.content')}</div>
               </div>
             </Layout>
         );
