@@ -394,6 +394,11 @@ img {
 
 /* Background gradient */
 .bg-gradient {
+  background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
+  background: -webkit-linear-gradient(left,_palette(accent-alt), _palette(accent));
+  background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
+}
+section#hero .bg-gradient {
   background: transparent;
   // background: -webkit-linear-gradient(left,_palette(accent-alt), _palette(accent));
   // background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
