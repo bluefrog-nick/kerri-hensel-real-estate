@@ -433,6 +433,14 @@ section#hero .bg-gradient {
   }
 }
 
+/* Added Later */
+section#about a{
+  padding: 8.5px 10px 10px;
+  font-weight: 600;
+  border: 1.5px solid #234B8C;
+  color: #234B8C;
+}
+
 /* Text meant only for screen readers */
 .screen-reader-text,
 .site-logo + .site-title {
