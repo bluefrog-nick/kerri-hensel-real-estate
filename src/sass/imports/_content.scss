@@ -205,9 +205,11 @@
     margin-bottom: 0px;
   }
 }
-section#psearch, #sectcontacthero {
-    padding-bottom: 10em;
-    padding-top: 5em;
+
+#psearch.hero-block, 
+#sectcontacthero.hero-block{
+    padding-bottom: 10em!important;
+    padding-top: 5em!important;
 }
 
 /* Read next */
