@@ -276,7 +276,8 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"],
-a.button {
+a.button,
+section#about a {
   background-color: _palette(accent);
   border: 3px solid _palette(accent);
   border-radius: 25px;
@@ -301,7 +302,8 @@ a.button {
   }
 }
 
-a.button {
+a.button,
+section#about a {
   height: auto;
   padding-bottom: 0.64285em;
   padding-top: 0.64285em;
@@ -433,14 +435,6 @@ section#hero .bg-img{
     top: 0;
     width: 5px;
   }
-}
-
-/* Added Later */
-section#about a{
-  padding: 8.5px 10px 10px;
-  font-weight: 600;
-  border: 1.5px solid #234B8C;
-  color: #234B8C;
 }
 
 /* Text meant only for screen readers */
