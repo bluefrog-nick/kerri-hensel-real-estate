@@ -18,7 +18,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="https://instantclick.io/v3.1.0/instantclick.min.js" data-no-instant></script> <script data-no-instant>InstantClick.init();</script>
       </body>
     </html>
   )
