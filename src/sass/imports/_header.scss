@@ -183,7 +183,11 @@
     overflow: hidden;
     position: relative;
   }
-
+  .header-top{
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
   .site-header:before {
     background: rgba(_palette(primary),.6);
     content: "";
