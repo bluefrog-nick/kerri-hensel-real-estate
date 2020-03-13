@@ -119,7 +119,10 @@
     ul{
       text-align: center;
       list-style: none;
-      margin-bottom: 0px;
+
+      :first-child{
+        margin-bottom: 0px;
+      }
     }
   }
 }
