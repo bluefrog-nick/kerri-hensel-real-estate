@@ -403,7 +403,11 @@ section#hero .bg-gradient {
   // background: -webkit-linear-gradient(left,_palette(accent-alt), _palette(accent));
   // background: linear-gradient(to right, _palette(accent-alt), _palette(accent));
 }
-
+section#hero .bg-img{
+  opacity: 1;
+  -webkit-animation: none;
+  animation: none;
+}
 /* Background Image */
 .bg-img {
   -webkit-animation: fadeIn .75s ease-in-out;
@@ -417,9 +421,7 @@ section#hero .bg-gradient {
   right: 0;
   top: 0;
 }
-section#hero .bg-img{
-  opacity: 1;
-}
+
 /* Heading decoration */
 .line-left {
   position: relative;
