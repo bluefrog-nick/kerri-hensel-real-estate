@@ -91,10 +91,18 @@
     }
   }
 }
+.two-column-content .block-content.right{
+  margin-right: -50px;
+}
 .two-column-content{
   max-width: 1080px;
   margin: 0 auto;
-  
+
+  .block-content{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   ul{
     padding-inline-start: 0px;
 
